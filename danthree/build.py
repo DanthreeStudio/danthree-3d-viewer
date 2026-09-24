@@ -37,11 +37,8 @@ h=h.replace('<title>Online 3D Viewer</title>','<title>Danthree Studio | 3D Viewe
 h=re.sub(r'<!-- website start -->.*?<!-- website end -->','<link rel="stylesheet" href="o3dv/o3dv.website.min.css">\n<link rel="stylesheet" href="danthree.css">\n<script src="o3dv/o3dv.website.min.js"></script>\n<script src="danthree.js"></script>',h,flags=re.S)
 h=re.sub(r'<!-- website analytics start -->.*?<!-- website analytics end -->','',h,flags=re.S)
 h=re.sub(r'    <script type="text/javascript">\s*OV.StartWebsite \(\);\s*</script>','',h)
-h=h.replace('<a href="index.html">\n                    <svg class="logo_image"><use href="assets/images/3dviewer_net_logo_text.svg#logo"></use></svg>\n                </a>','<a href="https://www.danthree.studio" target="_blank" rel="noopener" class="dt-brand" aria-label="Danthree Studio">Danthree Studio<span>3D Viewer</span></a>')
-h=h.replace('<div class="title_right" id="header_buttons"></div>','<div class="title_right" id="header_buttons"><label class="dt-lang-label" for="dt-language">Language</label><select id="dt-language" aria-label="Language"><option value="de">DE</option><option value="en">EN</option><option value="fr">FR</option><option value="it">IT</option></select></div>')
 a=h.index('            <div class="intro_logo">');b=h.index('            <!-- intro footer end -->',a)+len('            <!-- intro footer end -->')
-h=h[:a]+'''            <p class="dt-eyebrow" data-dt="eyebrow">DANTHREE STUDIO TOOLS</p>
-            <div id="dt-dropzone" role="button" tabindex="0" aria-label="Choose files">
+h=h[:a]+'''            <div id="dt-dropzone" role="button" tabindex="0" aria-label="Choose files">
               <h1 id="intro_dragdrop_text">Drop your 3D model here</h1>
               <p class="dt-drop-hint"><span class="dt-desktop-hint" data-dt="dropHint">Or click to open a 3D file.</span><span class="dt-mobile-hint" data-dt="dropHintMobile">Tap to open a 3D file.</span></p>
               <ul class="dt-format-grid" aria-label="Supported file formats">
@@ -52,9 +49,10 @@ h=h[:a]+'''            <p class="dt-eyebrow" data-dt="eyebrow">DANTHREE STUDIO T
               <p class="dt-file-note" data-dt="local">Local files stay in your browser.</p>
             </div>
             <details class="dt-help"><summary data-dt="controls">Navigation and file formats</summary><p data-dt="files">For multi-file models, select the model and its textures together.</p><p data-dt="navigation">Drag to rotate, scroll to zoom. On touchscreens, use two fingers to zoom and pan.</p><p data-dt="formats">Not every material or feature of a file format can be displayed.</p></details>
-            <div id="intro_formats_title" class="dt-sr-only"></div>
+            <div id="intro_formats_title" hidden></div>
             <div class="dt-studio-note"><p data-dt="studio">From a product model to a visual language for your brand.</p><a class="dt-button dt-contact" id="dt-contact" href="https://www.danthree.studio/en/contact" target="_top" data-dt="contact">Discuss your project</a></div>
-            <p class="dt-credit"><span data-dt="based">Based on</span> <a href="https://github.com/kovacsv/Online3DViewer" target="_blank" rel="noopener">Online 3D Viewer</a> · <a href="LICENSE-Online3DViewer.md" target="_blank" rel="noopener">MIT License</a> · <a href="THIRD-PARTY-NOTICES.txt" target="_blank" rel="noopener">Open-source licenses</a></p>''' +h[b:]
+''' +h[b:]
+h=re.sub(r'<div class="title_left">.*?</div>', '<div class="title_left"></div>', h, flags=re.S)
 (out/'index.html').write_text(h)
 (out/'robots.txt').write_text('User-agent: *\nDisallow: /\n')
 # Localization is inline data from our source file, no asynchronous race at startup.

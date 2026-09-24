@@ -16,8 +16,6 @@ window.addEventListener('DOMContentLoaded',()=>{
  const c=copy[lang];document.documentElement.lang=lang;
  document.querySelectorAll('[data-dt]').forEach(el=>{el.textContent=c[el.dataset.dt]||el.textContent;});
  document.getElementById('dt-contact').href='https://www.danthree.studio'+c.url;
- const select=document.getElementById('dt-language');select.value=lang;select.setAttribute('aria-label',c.language);
- select.addEventListener('change',()=>{const next=new URL(location.href);next.searchParams.set('lang',select.value);location.href=next.href;});
  const drop=document.getElementById('dt-dropzone');drop.setAttribute('aria-label',c.open);
  document.querySelector('.dt-format-grid').setAttribute('aria-label',c.formatLabel);
  drop.addEventListener('click',()=>document.getElementById('open_file').click());

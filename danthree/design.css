@@ -34,3 +34,17 @@ div.title div.title_right{order:3;margin-left:auto}div.main_file_name{flex:1;ord
 @media(max-width:600px){div.intro{padding:18px 14px 24px}#dt-dropzone{padding:20px 8px 15px}#intro_dragdrop_text{font-size:29px}.dt-format-grid{max-width:310px;gap:7px}.dt-format-grid li{width:66px;min-height:34px;font-size:14px}.dt-drop-hint{font-size:15px;margin-bottom:15px}.dt-file-note{font-size:13px}}
 
 .dt-mobile-hint{display:none}@media(max-width:600px){.dt-desktop-hint{display:none}.dt-mobile-hint{display:inline}}
+
+/* The landing page supplies the brand and language navigation. */
+div.title{display:none}
+div.intro{padding:14px;background:#292a2d;color:#f5f5f5}
+div.intro_content{box-sizing:border-box;width:100%;max-width:none;min-height:100%;padding:clamp(24px,5vh,46px) 20px 26px;border:1px dashed #68696c;border-radius:8px;display:flex;flex-direction:column;justify-content:center}
+#dt-dropzone{box-sizing:border-box;width:100%;max-width:920px;border:0;border-radius:0;padding:8px 20px 15px}
+#intro_dragdrop_text{font-size:clamp(27px,2.5vw,37px);font-weight:400;color:#f5f5f5}
+.dt-drop-hint,.dt-file-note,.dt-help summary{color:#bfc0c3}
+.dt-format-grid{max-width:690px;gap:10px;margin-top:25px}
+.dt-format-grid li{width:104px;min-height:42px;font-size:17px;border-color:#9197a1;color:#f5f5f5}
+.dt-studio-note{border-color:#5c5d61;max-width:630px;width:100%;padding-top:21px;margin-top:22px}.dt-studio-note p{color:#f5f5f5;font-size:18px}
+.dt-help{margin-top:0;color:#d4d4d7}
+#intro_formats_title[hidden]{display:none}
+@media(max-width:600px){div.intro{padding:9px}div.intro_content{padding:25px 8px;justify-content:flex-start}#dt-dropzone{padding:4px 0 14px}#intro_dragdrop_text{font-size:29px}.dt-format-grid{max-width:310px;gap:7px;margin-top:21px}.dt-format-grid li{width:66px;min-height:35px;font-size:14px}.dt-studio-note{margin-top:20px;padding-top:18px}.dt-studio-note p{font-size:17px;max-width:290px}.dt-help{padding:0 8px}}
