@@ -48,3 +48,6 @@ div.intro_content{box-sizing:border-box;width:100%;max-width:none;min-height:100
 .dt-help{margin-top:0;color:#d4d4d7}
 #intro_formats_title[hidden]{display:none}
 @media(max-width:600px){div.intro{padding:9px}div.intro_content{padding:25px 8px;justify-content:flex-start}#dt-dropzone{padding:4px 0 14px}#intro_dragdrop_text{font-size:29px}.dt-format-grid{max-width:310px;gap:7px;margin-top:21px}.dt-format-grid li{width:66px;min-height:35px;font-size:14px}.dt-studio-note{margin-top:20px;padding-top:18px}.dt-studio-note p{font-size:17px;max-width:290px}.dt-help{padding:0 8px}}
+
+/* Upstream subtracts padding when sizing intro, so height must remain content-box. */
+div.intro{box-sizing:content-box}
