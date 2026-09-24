@@ -41,15 +41,19 @@ h=h.replace('<a href="index.html">\n                    <svg class="logo_image">
 h=h.replace('<div class="title_right" id="header_buttons"></div>','<div class="title_right" id="header_buttons"><label class="dt-lang-label" for="dt-language">Language</label><select id="dt-language" aria-label="Language"><option value="de">DE</option><option value="en">EN</option><option value="fr">FR</option><option value="it">IT</option></select></div>')
 a=h.index('            <div class="intro_logo">');b=h.index('            <!-- intro footer end -->',a)+len('            <!-- intro footer end -->')
 h=h[:a]+'''            <p class="dt-eyebrow" data-dt="eyebrow">DANTHREE STUDIO TOOLS</p>
-            <h1 id="intro_dragdrop_text">Open your 3D model</h1>
-            <p class="dt-intro-copy" data-dt="intro">Inspect geometry, materials, and views directly in your browser.</p>
-            <button type="button" id="dt-open" class="dt-button" data-dt="open">Choose files</button>
-            <p class="dt-formats">GLB · glTF · OBJ · FBX · STL · STEP · IGES · 3DM</p>
-            <p class="dt-file-note" data-dt="files">For multi-file models, select the model and its textures together.</p>
-            <p class="dt-file-note" data-dt="local">Files opened from your device are processed in your browser.</p>
-            <details class="dt-help"><summary data-dt="controls">Navigation and file formats</summary><p data-dt="navigation">Drag to rotate, scroll to zoom. On touchscreens, use two fingers to zoom and pan.</p><p data-dt="formats">Also supports 3DS, 3MF, AMF, BIM, BREP, DAE, IFC, FCStd, OFF, PLY, and WRL. Format support does not guarantee that every material or feature can be displayed.</p></details>
+            <div id="dt-dropzone" role="button" tabindex="0" aria-label="Choose files">
+              <h1 id="intro_dragdrop_text">Drop your 3D model here</h1>
+              <p class="dt-drop-hint"><span class="dt-desktop-hint" data-dt="dropHint">Or click to open a 3D file.</span><span class="dt-mobile-hint" data-dt="dropHintMobile">Tap to open a 3D file.</span></p>
+              <ul class="dt-format-grid" aria-label="Supported file formats">
+                <li>GLB / glTF</li><li>OBJ</li><li>FBX</li><li>STL</li><li>STEP</li><li>IGES</li>
+                <li>3DM</li><li>3DS</li><li>3MF</li><li>AMF</li><li>BIM</li><li>BREP</li>
+                <li>DAE</li><li>FCStd</li><li>IFC</li><li>OFF</li><li>PLY</li><li>WRL</li>
+              </ul>
+              <p class="dt-file-note" data-dt="local">Local files stay in your browser.</p>
+            </div>
+            <details class="dt-help"><summary data-dt="controls">Navigation and file formats</summary><p data-dt="files">For multi-file models, select the model and its textures together.</p><p data-dt="navigation">Drag to rotate, scroll to zoom. On touchscreens, use two fingers to zoom and pan.</p><p data-dt="formats">Not every material or feature of a file format can be displayed.</p></details>
             <div id="intro_formats_title" class="dt-sr-only"></div>
-            <div class="dt-studio-note"><p data-dt="studio">From a product model to a visual language for your brand.</p><a class="dt-contact" id="dt-contact" href="https://www.danthree.studio/en/contact" target="_top" data-dt="contact">Discuss your project</a></div>
+            <div class="dt-studio-note"><p data-dt="studio">From a product model to a visual language for your brand.</p><a class="dt-button dt-contact" id="dt-contact" href="https://www.danthree.studio/en/contact" target="_top" data-dt="contact">Discuss your project</a></div>
             <p class="dt-credit"><span data-dt="based">Based on</span> <a href="https://github.com/kovacsv/Online3DViewer" target="_blank" rel="noopener">Online 3D Viewer</a> · <a href="LICENSE-Online3DViewer.md" target="_blank" rel="noopener">MIT License</a> · <a href="THIRD-PARTY-NOTICES.txt" target="_blank" rel="noopener">Open-source licenses</a></p>''' +h[b:]
 (out/'index.html').write_text(h)
 (out/'robots.txt').write_text('User-agent: *\nDisallow: /\n')
