@@ -1,0 +1,847 @@
+{
+  "-90 Degrees": {
+    "de": "-90 Grad",
+    "fr": "-90 degrés",
+    "it": "-90 gradi"
+  },
+  "90 Degrees": {
+    "de": "90 Grad",
+    "fr": "90 degrés",
+    "it": "90 gradi"
+  },
+  "Ambient": {
+    "de": "Umgebungslicht",
+    "fr": "Lumière ambiante",
+    "it": "Luce ambientale"
+  },
+  "Asset properties": {
+    "de": "Dateieigenschaften",
+    "fr": "Propriétés du fichier",
+    "it": "Proprietà del file"
+  },
+  "Available Files": {
+    "de": "Verfügbare Dateien",
+    "fr": "Fichiers disponibles",
+    "it": "File disponibili"
+  },
+  "Background Color": {
+    "de": "Hintergrundfarbe",
+    "fr": "Couleur de fond",
+    "it": "Colore di sfondo"
+  },
+  "Background Image": {
+    "de": "Hintergrundbild",
+    "fr": "Image de fond",
+    "it": "Immagine di sfondo"
+  },
+  "Bump Map": {
+    "de": "Bump-Map",
+    "fr": "Carte de relief",
+    "it": "Mappa di rilievo"
+  },
+  "Calculate...": {
+    "de": "Berechnen …",
+    "fr": "Calculer…",
+    "it": "Calcola…"
+  },
+  "Cancel": {
+    "de": "Abbrechen",
+    "fr": "Annuler",
+    "it": "Annulla"
+  },
+  "Centimeter": {
+    "de": "Zentimeter",
+    "fr": "Centimètre",
+    "it": "Centimetro"
+  },
+  "Check an example file:": {
+    "de": "Beispieldatei öffnen",
+    "fr": "Ouvrir un exemple",
+    "it": "Apri un esempio"
+  },
+  "Close": {
+    "de": "Schließen",
+    "fr": "Fermer",
+    "it": "Chiudi"
+  },
+  "Collapse all": {
+    "de": "Alle einklappen",
+    "fr": "Tout réduire",
+    "it": "Comprimi tutto"
+  },
+  "Color": {
+    "de": "Farbe",
+    "fr": "Couleur",
+    "it": "Colore"
+  },
+  "Copied": {
+    "de": "Kopiert",
+    "fr": "Copié",
+    "it": "Copiato"
+  },
+  "Copy": {
+    "de": "Kopieren",
+    "fr": "Copier",
+    "it": "Copia"
+  },
+  "Create": {
+    "de": "Erstellen",
+    "fr": "Créer",
+    "it": "Crea"
+  },
+  "Create Snapshot": {
+    "de": "Ansicht als Bild speichern",
+    "fr": "Enregistrer la vue en image",
+    "it": "Salva la vista come immagine"
+  },
+  "Create snapshot": {
+    "de": "Ansicht als Bild speichern",
+    "fr": "Enregistrer la vue en image",
+    "it": "Salva la vista come immagine"
+  },
+  "Custom": {
+    "de": "Benutzerdefiniert",
+    "fr": "Personnalisé",
+    "it": "Personalizzato"
+  },
+  "Dark mode": {
+    "de": "Dunkle Ansicht",
+    "fr": "Mode sombre",
+    "it": "Modalità scura"
+  },
+  "Default": {
+    "de": "Standard",
+    "fr": "Par défaut",
+    "it": "Predefinito"
+  },
+  "Default Color": {
+    "de": "Standardfarbe",
+    "fr": "Couleur par défaut",
+    "it": "Colore predefinito"
+  },
+  "Default Line Color": {
+    "de": "Standard-Linienfarbe",
+    "fr": "Couleur des lignes par défaut",
+    "it": "Colore predefinito delle linee"
+  },
+  "Details": {
+    "de": "Details",
+    "fr": "Détails",
+    "it": "Dettagli"
+  },
+  "Diffuse Map": {
+    "de": "Diffuse-Map",
+    "fr": "Texture diffuse",
+    "it": "Mappa diffusa"
+  },
+  "Document user texts": {
+    "de": "Benutzertexte im Dokument",
+    "fr": "Textes utilisateur du document",
+    "it": "Testi utente del documento"
+  },
+  "Download": {
+    "de": "Herunterladen",
+    "fr": "Télécharger",
+    "it": "Scarica"
+  },
+  "Drag and drop 3D models here.": {
+    "de": "3D-Dateien hier ablegen",
+    "fr": "Dépose tes fichiers 3D ici",
+    "it": "Trascina qui i tuoi file 3D"
+  },
+  "Edge Angle Threshold": {
+    "de": "Winkelschwelle für Kanten",
+    "fr": "Seuil angulaire des arêtes",
+    "it": "Soglia angolare degli spigoli"
+  },
+  "Edge Color": {
+    "de": "Kantenfarbe",
+    "fr": "Couleur des arêtes",
+    "it": "Colore degli spigoli"
+  },
+  "Embedding Code": {
+    "de": "Einbettungscode",
+    "fr": "Code d’intégration",
+    "it": "Codice di incorporamento"
+  },
+  "Embedding Online 3D Viewer in an iframe is not supported.": {
+    "de": "Einbetten in ein iframe wird nicht unterstützt.",
+    "fr": "L’intégration dans un iframe n’est pas prise en charge.",
+    "it": "L’incorporamento in un iframe non è supportato."
+  },
+  "Emissive Map": {
+    "de": "Emissions-Map",
+    "fr": "Texture émissive",
+    "it": "Mappa emissiva"
+  },
+  "Entire Model": {
+    "de": "Gesamtes Modell",
+    "fr": "Modèle entier",
+    "it": "Intero modello"
+  },
+  "Environment": {
+    "de": "Umgebung",
+    "fr": "Environnement",
+    "it": "Ambiente"
+  },
+  "Expand all": {
+    "de": "Alle aufklappen",
+    "fr": "Tout développer",
+    "it": "Espandi tutto"
+  },
+  "Export": {
+    "de": "Exportieren",
+    "fr": "Exporter",
+    "it": "Esporta"
+  },
+  "Export Failed": {
+    "de": "Export fehlgeschlagen",
+    "fr": "Échec de l’export",
+    "it": "Esportazione non riuscita"
+  },
+  "Exporting Model": {
+    "de": "Modell wird exportiert",
+    "fr": "Export du modèle",
+    "it": "Esportazione del modello"
+  },
+  "Failed to import model.": {
+    "de": "Modell konnte nicht importiert werden.",
+    "fr": "Impossible d’importer le modèle.",
+    "it": "Impossibile importare il modello."
+  },
+  "Failed to load draco decoder.": {
+    "de": "Draco-Decoder konnte nicht geladen werden.",
+    "fr": "Impossible de charger le décodeur Draco.",
+    "it": "Impossibile caricare il decoder Draco."
+  },
+  "Failed to load file for import.": {
+    "de": "Datei konnte nicht geladen werden.",
+    "fr": "Impossible de charger le fichier à importer.",
+    "it": "Impossibile caricare il file da importare."
+  },
+  "Failed to load occt-import-js.": {
+    "de": "CAD-Importmodul konnte nicht geladen werden.",
+    "fr": "Impossible de charger le module d’import CAO.",
+    "it": "Impossibile caricare il modulo di importazione CAD."
+  },
+  "Failed to load rhino3dm.": {
+    "de": "Rhino-Importmodul konnte nicht geladen werden.",
+    "fr": "Impossible de charger le module d’import Rhino.",
+    "it": "Impossibile caricare il modulo di importazione Rhino."
+  },
+  "Failed to load web-ifc.": {
+    "de": "IFC-Importmodul konnte nicht geladen werden.",
+    "fr": "Impossible de charger le module d’import IFC.",
+    "it": "Impossibile caricare il modulo di importazione IFC."
+  },
+  "Failed to parse bim file.": {
+    "de": "BIM-Datei konnte nicht gelesen werden.",
+    "fr": "Impossible de lire le fichier BIM.",
+    "it": "Impossibile leggere il file BIM."
+  },
+  "Failed to read Rhino file.": {
+    "de": "Rhino-Datei konnte nicht gelesen werden.",
+    "fr": "Impossible de lire le fichier Rhino.",
+    "it": "Impossibile leggere il file Rhino."
+  },
+  "False": {
+    "de": "Nein",
+    "fr": "Non",
+    "it": "No"
+  },
+  "Files": {
+    "de": "Dateien",
+    "fr": "Fichiers",
+    "it": "File"
+  },
+  "Fit mesh to window": {
+    "de": "Mesh einpassen",
+    "fr": "Ajuster le maillage à la vue",
+    "it": "Adatta la mesh alla vista"
+  },
+  "Fit meshes to window": {
+    "de": "Meshes einpassen",
+    "fr": "Ajuster les maillages à la vue",
+    "it": "Adatta le mesh alla vista"
+  },
+  "Fit model to window": {
+    "de": "Modell einpassen",
+    "fr": "Ajuster le modèle à la vue",
+    "it": "Adatta il modello alla vista"
+  },
+  "Fixed up vector": {
+    "de": "Drehen mit fester Hochachse",
+    "fr": "Rotation avec axe vertical fixe",
+    "it": "Rotazione con asse verticale fisso"
+  },
+  "Flat list": {
+    "de": "Flache Liste",
+    "fr": "Liste simple",
+    "it": "Elenco semplice"
+  },
+  "Flip up vector": {
+    "de": "Hochachse umkehren",
+    "fr": "Inverser l’axe vertical",
+    "it": "Inverti l’asse verticale"
+  },
+  "Foot": {
+    "de": "Fuß",
+    "fr": "Pied",
+    "it": "Piede"
+  },
+  "Free orbit": {
+    "de": "Frei drehen",
+    "fr": "Rotation libre",
+    "it": "Rotazione libera"
+  },
+  "Guid": {
+    "de": "GUID",
+    "fr": "GUID",
+    "it": "GUID"
+  },
+  "Height": {
+    "de": "Höhe",
+    "fr": "Hauteur",
+    "it": "Altezza"
+  },
+  "Here you can load models based on their urls. You can add more lines if your model builds up from multiple files.": {
+    "de": "Öffne Modelle über ihre Datei-URLs. Bei mehreren zusammengehörigen Dateien gib jede URL in einer eigenen Zeile an.",
+    "fr": "Ouvre des modèles à partir de leurs URL. Si le modèle comporte plusieurs fichiers, indique une URL par ligne.",
+    "it": "Apri modelli dai loro URL. Se il modello comprende più file, inserisci un URL per riga."
+  },
+  "Hide mesh": {
+    "de": "Mesh ausblenden",
+    "fr": "Masquer le maillage",
+    "it": "Nascondi la mesh"
+  },
+  "Import Settings": {
+    "de": "Importeinstellungen",
+    "fr": "Réglages d’import",
+    "it": "Impostazioni di importazione"
+  },
+  "Importing Model": {
+    "de": "Modell wird importiert",
+    "fr": "Import du modèle",
+    "it": "Importazione del modello"
+  },
+  "Importing model...": {
+    "de": "Modell wird importiert …",
+    "fr": "Import du modèle…",
+    "it": "Importazione del modello…"
+  },
+  "Inch": {
+    "de": "Zoll",
+    "fr": "Pouce",
+    "it": "Pollice"
+  },
+  "Info": {
+    "de": "Informationen",
+    "fr": "Informations",
+    "it": "Informazioni"
+  },
+  "Invalid glTF file.": {
+    "de": "Ungültige glTF-Datei.",
+    "fr": "Fichier glTF non valide.",
+    "it": "File glTF non valido."
+  },
+  "Invalid glTF version.": {
+    "de": "Ungültige glTF-Version.",
+    "fr": "Version glTF non valide.",
+    "it": "Versione glTF non valida."
+  },
+  "Invalid header information.": {
+    "de": "Ungültiger Dateikopf.",
+    "fr": "En-tête de fichier non valide.",
+    "it": "Intestazione del file non valida."
+  },
+  "Invalid normal index.": {
+    "de": "Ungültiger Normalenindex.",
+    "fr": "Indice de normale non valide.",
+    "it": "Indice della normale non valido."
+  },
+  "Invalid uv index.": {
+    "de": "Ungültiger UV-Index.",
+    "fr": "Indice UV non valide.",
+    "it": "Indice UV non valido."
+  },
+  "Invalid vertex color index.": {
+    "de": "Ungültiger Index der Punktfarbe.",
+    "fr": "Indice de couleur de sommet non valide.",
+    "it": "Indice del colore del vertice non valido."
+  },
+  "Invalid vertex index.": {
+    "de": "Ungültiger Punktindex.",
+    "fr": "Indice de sommet non valide.",
+    "it": "Indice del vertice non valido."
+  },
+  "Isolate mesh": {
+    "de": "Nur dieses Mesh anzeigen",
+    "fr": "Isoler le maillage",
+    "it": "Isola la mesh"
+  },
+  "Large (2560x1440)": {
+    "de": "Groß (2560 × 1440)",
+    "fr": "Grande (2560 × 1440)",
+    "it": "Grande (2560 × 1440)"
+  },
+  "Light mode": {
+    "de": "Helle Ansicht",
+    "fr": "Mode clair",
+    "it": "Modalità chiara"
+  },
+  "Lines": {
+    "de": "Linien",
+    "fr": "Lignes",
+    "it": "Linee"
+  },
+  "Loading Model": {
+    "de": "Modell wird geladen",
+    "fr": "Chargement du modèle",
+    "it": "Caricamento del modello"
+  },
+  "Loading model...": {
+    "de": "Modell wird geladen …",
+    "fr": "Chargement du modèle…",
+    "it": "Caricamento del modello…"
+  },
+  "Material": {
+    "de": "Material",
+    "fr": "Matériau",
+    "it": "Materiale"
+  },
+  "Materials": {
+    "de": "Materialien",
+    "fr": "Matériaux",
+    "it": "Materiali"
+  },
+  "Materials ({0})": {
+    "de": "Materialien ({0})",
+    "fr": "Matériaux ({0})",
+    "it": "Materiali ({0})"
+  },
+  "Measure": {
+    "de": "Messen",
+    "fr": "Mesurer",
+    "it": "Misura"
+  },
+  "Medium (1920x1080)": {
+    "de": "Mittel (1920 × 1080)",
+    "fr": "Moyenne (1920 × 1080)",
+    "it": "Media (1920 × 1080)"
+  },
+  "Mesh": {
+    "de": "Mesh",
+    "fr": "Maillage",
+    "it": "Mesh"
+  },
+  "Mesh properties": {
+    "de": "Mesh-Eigenschaften",
+    "fr": "Propriétés du maillage",
+    "it": "Proprietà della mesh"
+  },
+  "Mesh {0}": {
+    "de": "Mesh {0}",
+    "fr": "Maillage {0}",
+    "it": "Mesh {0}"
+  },
+  "Meshes": {
+    "de": "Meshes",
+    "fr": "Maillages",
+    "it": "Mesh"
+  },
+  "Meshes ({0})": {
+    "de": "Meshes ({0})",
+    "fr": "Maillages ({0})",
+    "it": "Mesh ({0})"
+  },
+  "Metallic Map": {
+    "de": "Metallizitäts-Map",
+    "fr": "Texture de métallicité",
+    "it": "Mappa metallica"
+  },
+  "Metalness": {
+    "de": "Metallizität",
+    "fr": "Métallicité",
+    "it": "Metallicità"
+  },
+  "Meter": {
+    "de": "Meter",
+    "fr": "Mètre",
+    "it": "Metro"
+  },
+  "Millimeter": {
+    "de": "Millimeter",
+    "fr": "Millimètre",
+    "it": "Millimetro"
+  },
+  "Missing Files": {
+    "de": "Fehlende Dateien",
+    "fr": "Fichiers manquants",
+    "it": "File mancanti"
+  },
+  "Model": {
+    "de": "Modell",
+    "fr": "Modèle",
+    "it": "Modello"
+  },
+  "Model Display": {
+    "de": "Modelldarstellung",
+    "fr": "Affichage du modèle",
+    "it": "Visualizzazione del modello"
+  },
+  "Multiple importable models found. Select the model you would like to import from the list below.": {
+    "de": "Mehrere Modelle gefunden. Wähle das gewünschte Modell aus der Liste.",
+    "fr": "Plusieurs modèles ont été trouvés. Choisis celui que tu veux importer dans la liste.",
+    "it": "Sono stati trovati più modelli. Scegli dall’elenco quello da importare."
+  },
+  "No Document.xml found.": {
+    "de": "Document.xml nicht gefunden.",
+    "fr": "Fichier Document.xml introuvable.",
+    "it": "File Document.xml non trovato."
+  },
+  "No Name": {
+    "de": "Ohne Namen",
+    "fr": "Sans nom",
+    "it": "Senza nome"
+  },
+  "No Rotation": {
+    "de": "Keine Drehung",
+    "fr": "Sans rotation",
+    "it": "Nessuna rotazione"
+  },
+  "No importable file found.": {
+    "de": "Keine unterstützte Datei gefunden.",
+    "fr": "Aucun fichier compatible trouvé.",
+    "it": "Nessun file compatibile trovato."
+  },
+  "No importable object found.": {
+    "de": "Kein importierbares Objekt gefunden.",
+    "fr": "Aucun objet importable trouvé.",
+    "it": "Nessun oggetto importabile trovato."
+  },
+  "Node properties": {
+    "de": "Knoteneigenschaften",
+    "fr": "Propriétés du nœud",
+    "it": "Proprietà del nodo"
+  },
+  "Normal Map": {
+    "de": "Normal-Map",
+    "fr": "Texture de normales",
+    "it": "Mappa delle normali"
+  },
+  "OK": {
+    "de": "OK",
+    "fr": "OK",
+    "it": "OK"
+  },
+  "One of the requested buffers is missing.": {
+    "de": "Ein benötigter Datenpuffer fehlt.",
+    "fr": "Un tampon de données nécessaire est manquant.",
+    "it": "Manca un buffer di dati necessario."
+  },
+  "Opacity": {
+    "de": "Deckkraft",
+    "fr": "Opacité",
+    "it": "Opacità"
+  },
+  "Open Online 3D Viewer": {
+    "de": "3D-Viewer öffnen",
+    "fr": "Ouvrir la visionneuse 3D",
+    "it": "Apri il visualizzatore 3D"
+  },
+  "Open from url": {
+    "de": "Über URL öffnen",
+    "fr": "Ouvrir depuis une URL",
+    "it": "Apri da URL"
+  },
+  "Open from your device": {
+    "de": "Dateien öffnen",
+    "fr": "Ouvrir des fichiers",
+    "it": "Apri file"
+  },
+  "Orthographic camera": {
+    "de": "Orthografische Kamera",
+    "fr": "Caméra orthographique",
+    "it": "Camera ortografica"
+  },
+  "Perspective camera": {
+    "de": "Perspektivische Kamera",
+    "fr": "Caméra perspective",
+    "it": "Camera prospettica"
+  },
+  "Phong": {
+    "de": "Phong",
+    "fr": "Phong",
+    "it": "Phong"
+  },
+  "Physical": {
+    "de": "Physikalisches Material",
+    "fr": "Matériau physique",
+    "it": "Materiale fisico"
+  },
+  "Please wait...": {
+    "de": "Bitte warten …",
+    "fr": "Patiente un instant…",
+    "it": "Attendi…"
+  },
+  "Properties": {
+    "de": "Eigenschaften",
+    "fr": "Propriétés",
+    "it": "Proprietà"
+  },
+  "Remove isolation": {
+    "de": "Isolierung aufheben",
+    "fr": "Quitter l’isolation",
+    "it": "Disattiva l’isolamento"
+  },
+  "Rotation": {
+    "de": "Drehung",
+    "fr": "Rotation",
+    "it": "Rotazione"
+  },
+  "Roughness": {
+    "de": "Rauheit",
+    "fr": "Rugosité",
+    "it": "Rugosità"
+  },
+  "Scene properties": {
+    "de": "Szeneneigenschaften",
+    "fr": "Propriétés de la scène",
+    "it": "Proprietà della scena"
+  },
+  "Scope": {
+    "de": "Umfang",
+    "fr": "Portée",
+    "it": "Ambito"
+  },
+  "Select Model": {
+    "de": "Modell auswählen",
+    "fr": "Choisir un modèle",
+    "it": "Scegli un modello"
+  },
+  "Select a point.": {
+    "de": "Wähle einen Punkt.",
+    "fr": "Choisis un point.",
+    "it": "Scegli un punto."
+  },
+  "Select another point.": {
+    "de": "Wähle einen weiteren Punkt.",
+    "fr": "Choisis un autre point.",
+    "it": "Scegli un altro punto."
+  },
+  "Select the format from the list below, and adjust the settings of the selected format.": {
+    "de": "Wähle das Format und passe die zugehörigen Einstellungen an.",
+    "fr": "Choisis le format et adapte ses réglages.",
+    "it": "Scegli il formato e modifica le relative impostazioni."
+  },
+  "Set Y axis as up vector": {
+    "de": "Y-Achse nach oben",
+    "fr": "Définir Y comme axe vertical",
+    "it": "Imposta Y come asse verticale"
+  },
+  "Set Z axis as up vector": {
+    "de": "Z-Achse nach oben",
+    "fr": "Définir Z comme axe vertical",
+    "it": "Imposta Z come asse verticale"
+  },
+  "Settings": {
+    "de": "Einstellungen",
+    "fr": "Réglages",
+    "it": "Impostazioni"
+  },
+  "Share": {
+    "de": "Teilen",
+    "fr": "Partager",
+    "it": "Condividi"
+  },
+  "Sharing Failed": {
+    "de": "Teilen fehlgeschlagen",
+    "fr": "Échec du partage",
+    "it": "Condivisione non riuscita"
+  },
+  "Sharing Link": {
+    "de": "Teilen-Link",
+    "fr": "Lien de partage",
+    "it": "Link di condivisione"
+  },
+  "Sharing works only if you load files by url. Please upload your model files to a web server, open them by url, and try embedding again.": {
+    "de": "Teilen funktioniert nur bei Dateien, die über eine URL geöffnet wurden. Lokal geöffnete Dateien werden nicht hochgeladen. Nutze bei Bedarf einen eigenen geeigneten Speicherort und öffne anschließend dessen Datei-URL.",
+    "fr": "Le partage fonctionne uniquement pour les fichiers ouverts depuis une URL. Les fichiers ouverts localement ne sont pas envoyés à un serveur. Si nécessaire, utilise un hébergement adapté et ouvre ensuite l’URL du fichier.",
+    "it": "La condivisione funziona solo per i file aperti da un URL. I file aperti localmente non vengono caricati su un server. Se necessario, usa uno spazio di archiviazione adatto e apri poi l’URL del file."
+  },
+  "Show Edges": {
+    "de": "Kanten anzeigen",
+    "fr": "Afficher les arêtes",
+    "it": "Mostra gli spigoli"
+  },
+  "Show all meshes": {
+    "de": "Alle Meshes anzeigen",
+    "fr": "Afficher tous les maillages",
+    "it": "Mostra tutte le mesh"
+  },
+  "Show/hide meshes": {
+    "de": "Meshes ein-/ausblenden",
+    "fr": "Afficher/masquer les maillages",
+    "it": "Mostra/nascondi le mesh"
+  },
+  "Size X": {
+    "de": "Maß X",
+    "fr": "Dimension X",
+    "it": "Dimensione X"
+  },
+  "Size Y": {
+    "de": "Maß Y",
+    "fr": "Dimension Y",
+    "it": "Dimensione Y"
+  },
+  "Size Z": {
+    "de": "Maß Z",
+    "fr": "Dimension Z",
+    "it": "Dimensione Z"
+  },
+  "Small (1280x720)": {
+    "de": "Klein (1280 × 720)",
+    "fr": "Petite (1280 × 720)",
+    "it": "Piccola (1280 × 720)"
+  },
+  "Something went wrong": {
+    "de": "Ein Fehler ist aufgetreten",
+    "fr": "Une erreur est survenue",
+    "it": "Si è verificato un errore"
+  },
+  "Source": {
+    "de": "Quelle",
+    "fr": "Source",
+    "it": "Origine"
+  },
+  "Specular": {
+    "de": "Glanz",
+    "fr": "Spéculaire",
+    "it": "Speculare"
+  },
+  "Specular Map": {
+    "de": "Glanz-Map",
+    "fr": "Texture spéculaire",
+    "it": "Mappa speculare"
+  },
+  "Surface": {
+    "de": "Oberfläche",
+    "fr": "Surface",
+    "it": "Superficie"
+  },
+  "The model contains no faces.": {
+    "de": "Das Modell enthält keine Flächen.",
+    "fr": "Le modèle ne contient aucune face.",
+    "it": "Il modello non contiene facce."
+  },
+  "The model contains no vertices.": {
+    "de": "Das Modell enthält keine Punkte.",
+    "fr": "Le modèle ne contient aucun sommet.",
+    "it": "Il modello non contiene vertici."
+  },
+  "The model doesn't contain any 3D meshes. Try to save the model while you are in shaded view in Rhino.": {
+    "de": "Das Modell enthält keine 3D-Meshes. Speichere es in Rhino in der schattierten Ansicht und versuche es erneut.",
+    "fr": "Le modèle ne contient aucun maillage 3D. Enregistre-le dans Rhino en vue ombrée, puis réessaie.",
+    "it": "Il modello non contiene mesh 3D. Salvalo in Rhino in una vista ombreggiata e riprova."
+  },
+  "The model doesn't contain any meshes.": {
+    "de": "Das Modell enthält keine Meshes.",
+    "fr": "Le modèle ne contient aucun maillage.",
+    "it": "Il modello non contiene mesh."
+  },
+  "The remote server refused to fulfill the request. Check if the url is correct, and make sure that CORS requests are allowed on the remote server.": {
+    "de": "Der Server hat die Anfrage abgelehnt. Prüfe die URL und ob der Dateiserver Zugriffe über CORS erlaubt.",
+    "fr": "Le serveur a refusé la requête. Vérifie l’URL et l’autorisation des requêtes CORS sur le serveur du fichier.",
+    "it": "Il server ha rifiutato la richiesta. Verifica l’URL e che il server del file consenta le richieste CORS."
+  },
+  "Transparent background": {
+    "de": "Transparenter Hintergrund",
+    "fr": "Fond transparent",
+    "it": "Sfondo trasparente"
+  },
+  "Tree view": {
+    "de": "Baumansicht",
+    "fr": "Arborescence",
+    "it": "Vista ad albero"
+  },
+  "Triangles": {
+    "de": "Dreiecke",
+    "fr": "Triangles",
+    "it": "Triangoli"
+  },
+  "True": {
+    "de": "Ja",
+    "fr": "Oui",
+    "it": "Sì"
+  },
+  "Type": {
+    "de": "Typ",
+    "fr": "Type",
+    "it": "Tipo"
+  },
+  "Unit": {
+    "de": "Einheit",
+    "fr": "Unité",
+    "it": "Unità"
+  },
+  "Unknown": {
+    "de": "Unbekannt",
+    "fr": "Inconnu",
+    "it": "Sconosciuto"
+  },
+  "Unknown error.": {
+    "de": "Unbekannter Fehler.",
+    "fr": "Erreur inconnue.",
+    "it": "Errore sconosciuto."
+  },
+  "Unsupported extension: {0}.": {
+    "de": "Nicht unterstütztes Dateiformat: {0}.",
+    "fr": "Format non pris en charge : {0}.",
+    "it": "Formato non supportato: {0}."
+  },
+  "Use customized settings": {
+    "de": "Eigene Einstellungen verwenden",
+    "fr": "Utiliser des réglages personnalisés",
+    "it": "Usa impostazioni personalizzate"
+  },
+  "User texts": {
+    "de": "Benutzertexte",
+    "fr": "Textes utilisateur",
+    "it": "Testi utente"
+  },
+  "Vertex colors": {
+    "de": "Punktfarben",
+    "fr": "Couleurs des sommets",
+    "it": "Colori dei vertici"
+  },
+  "Vertices": {
+    "de": "Punkte",
+    "fr": "Sommets",
+    "it": "Vertici"
+  },
+  "Visible Only": {
+    "de": "Nur Sichtbares",
+    "fr": "Éléments visibles seulement",
+    "it": "Solo elementi visibili"
+  },
+  "Visualizing Model": {
+    "de": "Modell wird angezeigt",
+    "fr": "Affichage du modèle",
+    "it": "Visualizzazione del modello"
+  },
+  "Visualizing model...": {
+    "de": "Modell wird angezeigt …",
+    "fr": "Affichage du modèle…",
+    "it": "Visualizzazione del modello…"
+  },
+  "Volume": {
+    "de": "Volumen",
+    "fr": "Volume",
+    "it": "Volume"
+  },
+  "Width": {
+    "de": "Breite",
+    "fr": "Largeur",
+    "it": "Larghezza"
+  }
+}

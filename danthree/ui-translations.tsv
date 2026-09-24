@@ -1,0 +1,169 @@
+-90 Degrees	-90 Grad	-90 degrés	-90 gradi
+90 Degrees	90 Grad	90 degrés	90 gradi
+Ambient	Umgebungslicht	Lumière ambiante	Luce ambientale
+Asset properties	Dateieigenschaften	Propriétés du fichier	Proprietà del file
+Available Files	Verfügbare Dateien	Fichiers disponibles	File disponibili
+Background Color	Hintergrundfarbe	Couleur de fond	Colore di sfondo
+Background Image	Hintergrundbild	Image de fond	Immagine di sfondo
+Bump Map	Bump-Map	Carte de relief	Mappa di rilievo
+Calculate...	Berechnen …	Calculer…	Calcola…
+Cancel	Abbrechen	Annuler	Annulla
+Centimeter	Zentimeter	Centimètre	Centimetro
+Check an example file:	Beispieldatei öffnen	Ouvrir un exemple	Apri un esempio
+Close	Schließen	Fermer	Chiudi
+Collapse all	Alle einklappen	Tout réduire	Comprimi tutto
+Color	Farbe	Couleur	Colore
+Copied	Kopiert	Copié	Copiato
+Copy	Kopieren	Copier	Copia
+Create	Erstellen	Créer	Crea
+Create Snapshot	Ansicht als Bild speichern	Enregistrer la vue en image	Salva la vista come immagine
+Create snapshot	Ansicht als Bild speichern	Enregistrer la vue en image	Salva la vista come immagine
+Custom	Benutzerdefiniert	Personnalisé	Personalizzato
+Dark mode	Dunkle Ansicht	Mode sombre	Modalità scura
+Default	Standard	Par défaut	Predefinito
+Default Color	Standardfarbe	Couleur par défaut	Colore predefinito
+Default Line Color	Standard-Linienfarbe	Couleur des lignes par défaut	Colore predefinito delle linee
+Details	Details	Détails	Dettagli
+Diffuse Map	Diffuse-Map	Texture diffuse	Mappa diffusa
+Document user texts	Benutzertexte im Dokument	Textes utilisateur du document	Testi utente del documento
+Download	Herunterladen	Télécharger	Scarica
+Drag and drop 3D models here.	3D-Dateien hier ablegen	Dépose tes fichiers 3D ici	Trascina qui i tuoi file 3D
+Edge Angle Threshold	Winkelschwelle für Kanten	Seuil angulaire des arêtes	Soglia angolare degli spigoli
+Edge Color	Kantenfarbe	Couleur des arêtes	Colore degli spigoli
+Embedding Code	Einbettungscode	Code d’intégration	Codice di incorporamento
+Embedding Online 3D Viewer in an iframe is not supported.	Einbetten in ein iframe wird nicht unterstützt.	L’intégration dans un iframe n’est pas prise en charge.	L’incorporamento in un iframe non è supportato.
+Emissive Map	Emissions-Map	Texture émissive	Mappa emissiva
+Entire Model	Gesamtes Modell	Modèle entier	Intero modello
+Environment	Umgebung	Environnement	Ambiente
+Expand all	Alle aufklappen	Tout développer	Espandi tutto
+Export	Exportieren	Exporter	Esporta
+Export Failed	Export fehlgeschlagen	Échec de l’export	Esportazione non riuscita
+Exporting Model	Modell wird exportiert	Export du modèle	Esportazione del modello
+Failed to import model.	Modell konnte nicht importiert werden.	Impossible d’importer le modèle.	Impossibile importare il modello.
+Failed to load draco decoder.	Draco-Decoder konnte nicht geladen werden.	Impossible de charger le décodeur Draco.	Impossibile caricare il decoder Draco.
+Failed to load file for import.	Datei konnte nicht geladen werden.	Impossible de charger le fichier à importer.	Impossibile caricare il file da importare.
+Failed to load occt-import-js.	CAD-Importmodul konnte nicht geladen werden.	Impossible de charger le module d’import CAO.	Impossibile caricare il modulo di importazione CAD.
+Failed to load rhino3dm.	Rhino-Importmodul konnte nicht geladen werden.	Impossible de charger le module d’import Rhino.	Impossibile caricare il modulo di importazione Rhino.
+Failed to load web-ifc.	IFC-Importmodul konnte nicht geladen werden.	Impossible de charger le module d’import IFC.	Impossibile caricare il modulo di importazione IFC.
+Failed to parse bim file.	BIM-Datei konnte nicht gelesen werden.	Impossible de lire le fichier BIM.	Impossibile leggere il file BIM.
+Failed to read Rhino file.	Rhino-Datei konnte nicht gelesen werden.	Impossible de lire le fichier Rhino.	Impossibile leggere il file Rhino.
+False	Nein	Non	No
+Files	Dateien	Fichiers	File
+Fit mesh to window	Mesh einpassen	Ajuster le maillage à la vue	Adatta la mesh alla vista
+Fit meshes to window	Meshes einpassen	Ajuster les maillages à la vue	Adatta le mesh alla vista
+Fit model to window	Modell einpassen	Ajuster le modèle à la vue	Adatta il modello alla vista
+Fixed up vector	Drehen mit fester Hochachse	Rotation avec axe vertical fixe	Rotazione con asse verticale fisso
+Flat list	Flache Liste	Liste simple	Elenco semplice
+Flip up vector	Hochachse umkehren	Inverser l’axe vertical	Inverti l’asse verticale
+Foot	Fuß	Pied	Piede
+Free orbit	Frei drehen	Rotation libre	Rotazione libera
+Guid	GUID	GUID	GUID
+Height	Höhe	Hauteur	Altezza
+Here you can load models based on their urls. You can add more lines if your model builds up from multiple files.	Öffne Modelle über ihre Datei-URLs. Bei mehreren zusammengehörigen Dateien gib jede URL in einer eigenen Zeile an.	Ouvre des modèles à partir de leurs URL. Si le modèle comporte plusieurs fichiers, indique une URL par ligne.	Apri modelli dai loro URL. Se il modello comprende più file, inserisci un URL per riga.
+Hide mesh	Mesh ausblenden	Masquer le maillage	Nascondi la mesh
+Import Settings	Importeinstellungen	Réglages d’import	Impostazioni di importazione
+Importing Model	Modell wird importiert	Import du modèle	Importazione del modello
+Importing model...	Modell wird importiert …	Import du modèle…	Importazione del modello…
+Inch	Zoll	Pouce	Pollice
+Info	Informationen	Informations	Informazioni
+Invalid glTF file.	Ungültige glTF-Datei.	Fichier glTF non valide.	File glTF non valido.
+Invalid glTF version.	Ungültige glTF-Version.	Version glTF non valide.	Versione glTF non valida.
+Invalid header information.	Ungültiger Dateikopf.	En-tête de fichier non valide.	Intestazione del file non valida.
+Invalid normal index.	Ungültiger Normalenindex.	Indice de normale non valide.	Indice della normale non valido.
+Invalid uv index.	Ungültiger UV-Index.	Indice UV non valide.	Indice UV non valido.
+Invalid vertex color index.	Ungültiger Index der Punktfarbe.	Indice de couleur de sommet non valide.	Indice del colore del vertice non valido.
+Invalid vertex index.	Ungültiger Punktindex.	Indice de sommet non valide.	Indice del vertice non valido.
+Isolate mesh	Nur dieses Mesh anzeigen	Isoler le maillage	Isola la mesh
+Large (2560x1440)	Groß (2560 × 1440)	Grande (2560 × 1440)	Grande (2560 × 1440)
+Light mode	Helle Ansicht	Mode clair	Modalità chiara
+Lines	Linien	Lignes	Linee
+Loading Model	Modell wird geladen	Chargement du modèle	Caricamento del modello
+Loading model...	Modell wird geladen …	Chargement du modèle…	Caricamento del modello…
+Material	Material	Matériau	Materiale
+Materials	Materialien	Matériaux	Materiali
+Materials ({0})	Materialien ({0})	Matériaux ({0})	Materiali ({0})
+Measure	Messen	Mesurer	Misura
+Medium (1920x1080)	Mittel (1920 × 1080)	Moyenne (1920 × 1080)	Media (1920 × 1080)
+Mesh	Mesh	Maillage	Mesh
+Mesh properties	Mesh-Eigenschaften	Propriétés du maillage	Proprietà della mesh
+Mesh {0}	Mesh {0}	Maillage {0}	Mesh {0}
+Meshes	Meshes	Maillages	Mesh
+Meshes ({0})	Meshes ({0})	Maillages ({0})	Mesh ({0})
+Metallic Map	Metallizitäts-Map	Texture de métallicité	Mappa metallica
+Metalness	Metallizität	Métallicité	Metallicità
+Meter	Meter	Mètre	Metro
+Millimeter	Millimeter	Millimètre	Millimetro
+Missing Files	Fehlende Dateien	Fichiers manquants	File mancanti
+Model	Modell	Modèle	Modello
+Model Display	Modelldarstellung	Affichage du modèle	Visualizzazione del modello
+Multiple importable models found. Select the model you would like to import from the list below.	Mehrere Modelle gefunden. Wähle das gewünschte Modell aus der Liste.	Plusieurs modèles ont été trouvés. Choisis celui que tu veux importer dans la liste.	Sono stati trovati più modelli. Scegli dall’elenco quello da importare.
+No Document.xml found.	Document.xml nicht gefunden.	Fichier Document.xml introuvable.	File Document.xml non trovato.
+No Name	Ohne Namen	Sans nom	Senza nome
+No Rotation	Keine Drehung	Sans rotation	Nessuna rotazione
+No importable file found.	Keine unterstützte Datei gefunden.	Aucun fichier compatible trouvé.	Nessun file compatibile trovato.
+No importable object found.	Kein importierbares Objekt gefunden.	Aucun objet importable trouvé.	Nessun oggetto importabile trovato.
+Node properties	Knoteneigenschaften	Propriétés du nœud	Proprietà del nodo
+Normal Map	Normal-Map	Texture de normales	Mappa delle normali
+OK	OK	OK	OK
+One of the requested buffers is missing.	Ein benötigter Datenpuffer fehlt.	Un tampon de données nécessaire est manquant.	Manca un buffer di dati necessario.
+Opacity	Deckkraft	Opacité	Opacità
+Open Online 3D Viewer	3D-Viewer öffnen	Ouvrir la visionneuse 3D	Apri il visualizzatore 3D
+Open from url	Über URL öffnen	Ouvrir depuis une URL	Apri da URL
+Open from your device	Dateien öffnen	Ouvrir des fichiers	Apri file
+Orthographic camera	Orthografische Kamera	Caméra orthographique	Camera ortografica
+Perspective camera	Perspektivische Kamera	Caméra perspective	Camera prospettica
+Phong	Phong	Phong	Phong
+Physical	Physikalisches Material	Matériau physique	Materiale fisico
+Please wait...	Bitte warten …	Patiente un instant…	Attendi…
+Properties	Eigenschaften	Propriétés	Proprietà
+Remove isolation	Isolierung aufheben	Quitter l’isolation	Disattiva l’isolamento
+Rotation	Drehung	Rotation	Rotazione
+Roughness	Rauheit	Rugosité	Rugosità
+Scene properties	Szeneneigenschaften	Propriétés de la scène	Proprietà della scena
+Scope	Umfang	Portée	Ambito
+Select Model	Modell auswählen	Choisir un modèle	Scegli un modello
+Select a point.	Wähle einen Punkt.	Choisis un point.	Scegli un punto.
+Select another point.	Wähle einen weiteren Punkt.	Choisis un autre point.	Scegli un altro punto.
+Select the format from the list below, and adjust the settings of the selected format.	Wähle das Format und passe die zugehörigen Einstellungen an.	Choisis le format et adapte ses réglages.	Scegli il formato e modifica le relative impostazioni.
+Set Y axis as up vector	Y-Achse nach oben	Définir Y comme axe vertical	Imposta Y come asse verticale
+Set Z axis as up vector	Z-Achse nach oben	Définir Z comme axe vertical	Imposta Z come asse verticale
+Settings	Einstellungen	Réglages	Impostazioni
+Share	Teilen	Partager	Condividi
+Sharing Failed	Teilen fehlgeschlagen	Échec du partage	Condivisione non riuscita
+Sharing Link	Teilen-Link	Lien de partage	Link di condivisione
+Sharing works only if you load files by url. Please upload your model files to a web server, open them by url, and try embedding again.	Teilen funktioniert nur bei Dateien, die über eine URL geöffnet wurden. Lokal geöffnete Dateien werden nicht hochgeladen. Nutze bei Bedarf einen eigenen geeigneten Speicherort und öffne anschließend dessen Datei-URL.	Le partage fonctionne uniquement pour les fichiers ouverts depuis une URL. Les fichiers ouverts localement ne sont pas envoyés à un serveur. Si nécessaire, utilise un hébergement adapté et ouvre ensuite l’URL du fichier.	La condivisione funziona solo per i file aperti da un URL. I file aperti localmente non vengono caricati su un server. Se necessario, usa uno spazio di archiviazione adatto e apri poi l’URL del file.
+Show Edges	Kanten anzeigen	Afficher les arêtes	Mostra gli spigoli
+Show all meshes	Alle Meshes anzeigen	Afficher tous les maillages	Mostra tutte le mesh
+Show/hide meshes	Meshes ein-/ausblenden	Afficher/masquer les maillages	Mostra/nascondi le mesh
+Size X	Maß X	Dimension X	Dimensione X
+Size Y	Maß Y	Dimension Y	Dimensione Y
+Size Z	Maß Z	Dimension Z	Dimensione Z
+Small (1280x720)	Klein (1280 × 720)	Petite (1280 × 720)	Piccola (1280 × 720)
+Something went wrong	Ein Fehler ist aufgetreten	Une erreur est survenue	Si è verificato un errore
+Source	Quelle	Source	Origine
+Specular	Glanz	Spéculaire	Speculare
+Specular Map	Glanz-Map	Texture spéculaire	Mappa speculare
+Surface	Oberfläche	Surface	Superficie
+The model contains no faces.	Das Modell enthält keine Flächen.	Le modèle ne contient aucune face.	Il modello non contiene facce.
+The model contains no vertices.	Das Modell enthält keine Punkte.	Le modèle ne contient aucun sommet.	Il modello non contiene vertici.
+The model doesn't contain any 3D meshes. Try to save the model while you are in shaded view in Rhino.	Das Modell enthält keine 3D-Meshes. Speichere es in Rhino in der schattierten Ansicht und versuche es erneut.	Le modèle ne contient aucun maillage 3D. Enregistre-le dans Rhino en vue ombrée, puis réessaie.	Il modello non contiene mesh 3D. Salvalo in Rhino in una vista ombreggiata e riprova.
+The model doesn't contain any meshes.	Das Modell enthält keine Meshes.	Le modèle ne contient aucun maillage.	Il modello non contiene mesh.
+The remote server refused to fulfill the request. Check if the url is correct, and make sure that CORS requests are allowed on the remote server.	Der Server hat die Anfrage abgelehnt. Prüfe die URL und ob der Dateiserver Zugriffe über CORS erlaubt.	Le serveur a refusé la requête. Vérifie l’URL et l’autorisation des requêtes CORS sur le serveur du fichier.	Il server ha rifiutato la richiesta. Verifica l’URL e che il server del file consenta le richieste CORS.
+Transparent background	Transparenter Hintergrund	Fond transparent	Sfondo trasparente
+Tree view	Baumansicht	Arborescence	Vista ad albero
+Triangles	Dreiecke	Triangles	Triangoli
+True	Ja	Oui	Sì
+Type	Typ	Type	Tipo
+Unit	Einheit	Unité	Unità
+Unknown	Unbekannt	Inconnu	Sconosciuto
+Unknown error.	Unbekannter Fehler.	Erreur inconnue.	Errore sconosciuto.
+Unsupported extension: {0}.	Nicht unterstütztes Dateiformat: {0}.	Format non pris en charge : {0}.	Formato non supportato: {0}.
+Use customized settings	Eigene Einstellungen verwenden	Utiliser des réglages personnalisés	Usa impostazioni personalizzate
+User texts	Benutzertexte	Textes utilisateur	Testi utente
+Vertex colors	Punktfarben	Couleurs des sommets	Colori dei vertici
+Vertices	Punkte	Sommets	Vertici
+Visible Only	Nur Sichtbares	Éléments visibles seulement	Solo elementi visibili
+Visualizing Model	Modell wird angezeigt	Affichage du modèle	Visualizzazione del modello
+Visualizing model...	Modell wird angezeigt …	Affichage du modèle…	Visualizzazione del modello…
+Volume	Volumen	Volume	Volume
+Width	Breite	Largeur	Larghezza

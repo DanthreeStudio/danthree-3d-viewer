@@ -1,0 +1,25 @@
+@font-face{font-family:Danthree;src:url('assets/fonts/FuturaPTBook.otf') format('opentype');font-weight:400;font-display:swap}
+@font-face{font-family:Danthree;src:url('assets/fonts/FuturaPTDemi.otf') format('opentype');font-weight:600;font-display:swap}
+:root{--ov_button_color:#2f4de6;--ov_button_hover_color:#233ec8;--ov_outline_button_color:#2f4de6;--ov_outline_button_text_color:#2f4de6;--ov_selected_icon_color:#2f4de6;--ov_hover_color:#eceefa;--ov_hover_text_color:#233ec8;--ov_foreground_color:#242521;--ov_toolbar_background_color:#f6f5f2}
+html,body,button,input,select,textarea{font-family:Danthree,Arial,sans-serif}
+button,input,select{font-size:16px}button,a,select{touch-action:manipulation}
+button:focus-visible,a:focus-visible,select:focus-visible,summary:focus-visible{outline:2px solid #2f4de6;outline-offset:4px}
+div.title{display:flex;align-items:center;justify-content:center;gap:20px;padding:10px 18px;min-height:38px;border-bottom:1px solid var(--ov_border_color)}
+div.title div.title_left,div.title div.title_right{float:none}.dt-brand{display:flex;align-items:baseline;gap:14px;font-size:21px;font-weight:600;color:var(--ov_foreground_color);white-space:nowrap}.dt-brand span{font-size:14px;font-weight:400;color:var(--ov_light_icon_color)}
+div.title div.title_right{margin-left:auto;display:flex;align-items:center;gap:7px}.dt-lang-label{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+#dt-language{background:var(--ov_background_color);color:var(--ov_foreground_color);border:1px solid var(--ov_border_color);border-radius:5px;padding:6px}
+div.main_file_name{min-width:0;max-width:45%;font-size:14px;margin:0 auto}
+div.intro{box-sizing:border-box;margin:0;padding:24px 22px 30px;border:0;background:var(--ov_background_color)}
+div.intro_content{width:720px;max-width:100%;margin:0 auto;text-align:center}
+.dt-eyebrow{font-size:12px;letter-spacing:.12em;color:var(--ov_light_icon_color);margin:0 0 12px}
+#intro_dragdrop_text{font-size:clamp(27px,3.3vw,39px);line-height:1.12;letter-spacing:-.025em;font-weight:400;margin:0 0 13px}
+.dt-intro-copy{max-width:530px;margin:0 auto 20px;font-size:19px;line-height:1.4}
+.dt-button{display:inline-flex;align-items:center;justify-content:center;border:0;border-radius:8px;background:#2f4de6;color:white;min-height:48px;padding:10px 25px;font-weight:600;cursor:pointer}
+.dt-button:hover{background:#233ec8}.dt-formats{font-size:15px;line-height:1.5;letter-spacing:.03em;margin:18px auto 8px;color:var(--ov_foreground_color)}
+.dt-file-note{font-size:14px;line-height:1.4;margin:5px auto;max-width:570px;color:var(--ov_light_icon_color)}
+.dt-help{margin:18px auto 0;max-width:580px;font-size:14px;line-height:1.4}.dt-help summary{cursor:pointer;color:var(--ov_light_icon_color)}.dt-help p{margin:10px auto}
+.dt-studio-note{margin:25px auto 0;padding-top:19px;border-top:1px solid var(--ov_border_color);max-width:510px}.dt-studio-note p{font-size:17px;line-height:1.35;margin:0 auto 9px}.dt-contact{display:inline-block;font-size:16px;color:#2f4de6;text-decoration:underline;text-underline-offset:4px;padding:5px 12px}
+.dt-credit{font-size:12px;color:var(--ov_light_icon_color);margin:20px 0 0}.dt-credit a{color:inherit;text-decoration:underline;text-underline-offset:3px}.dt-sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+@media(max-width:600px){div.title{gap:10px;padding:8px 12px}.dt-brand{font-size:18px;gap:8px}.dt-brand span{font-size:12px}div.intro{padding:22px 18px}.dt-intro-copy{font-size:17px}.dt-formats{font-size:13px}.dt-studio-note{margin-top:21px}div.main_file_name{display:none}}
+
+div.title div.title_right{order:3;margin-left:auto}div.main_file_name{flex:1;order:2}div.main_file_name:empty{display:none}
