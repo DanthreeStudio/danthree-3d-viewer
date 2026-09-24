@@ -45,10 +45,10 @@ export function RegisterToolbarPlugin (plugin)
     RegisterPlugin (PluginType.Toolbar, plugin);
 }
 
-export function StartWebsite ()
+export function StartWebsite (options = {})
 {
     window.addEventListener ('load', () => {
-        if (window.self !== window.top) {
+        if (window.self !== window.top && !options.allowEmbedding) {
             let noEmbeddingDiv = AddDiv (document.body, 'noembed');
             AddDiv (noEmbeddingDiv, null, Loc ('Embedding Online 3D Viewer in an iframe is not supported.'));
             let link = AddDomElement (noEmbeddingDiv, 'a', null, Loc ('Open Online 3D Viewer'));
