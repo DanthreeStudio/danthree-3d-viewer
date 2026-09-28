@@ -1,5 +1,6 @@
 """Build Danthree's static viewer from the bundled upstream engine.
-No credentials, tracking, forms or backend services are added.
+No credentials, model upload or new backend services are added.
+Contact opens the existing Webflow form in a dialog.
 Fonts are copied from an authorized local Webflow export, never to source control.
 """
 from pathlib import Path
@@ -28,13 +29,14 @@ licenses = [
 
 shutil.copyfile(root/'danthree/design.css',out/'danthree.css')
 shutil.copyfile(root/'danthree/app.js',out/'danthree.js')
+shutil.copyfile(root/'danthree/contact.js',out/'contact.js')
 shutil.copyfile(root/'danthree/localization.json',out/'localization.json')
 h=(root/'website/index.html').read_text()
 h=h.replace('<html>','<html lang="en">').replace('width=device-width, user-scalable=no','width=device-width, initial-scale=1')
 h=re.sub(r'    <link rel="icon".*?\n','',h)
 h=re.sub(r'    <link rel="canonical".*?\n','',h)
 h=h.replace('<title>Online 3D Viewer</title>','<title>Danthree Studio | 3D Viewer</title>\n    <meta name="robots" content="noindex,follow">')
-h=re.sub(r'<!-- website start -->.*?<!-- website end -->','<link rel="stylesheet" href="o3dv/o3dv.website.min.css">\n<link rel="stylesheet" href="danthree.css">\n<script src="o3dv/o3dv.website.min.js"></script>\n<script src="danthree.js"></script>',h,flags=re.S)
+h=re.sub(r'<!-- website start -->.*?<!-- website end -->','<link rel="stylesheet" href="o3dv/o3dv.website.min.css">\n<link rel="stylesheet" href="danthree.css">\n<script src="o3dv/o3dv.website.min.js"></script>\n<script src="danthree.js"></script>\n<script src="contact.js"></script>',h,flags=re.S)
 h=re.sub(r'<!-- website analytics start -->.*?<!-- website analytics end -->','',h,flags=re.S)
 h=re.sub(r'    <script type="text/javascript">\s*OV.StartWebsite \(\);\s*</script>','',h)
 a=h.index('            <div class="intro_logo">');b=h.index('            <!-- intro footer end -->',a)+len('            <!-- intro footer end -->')

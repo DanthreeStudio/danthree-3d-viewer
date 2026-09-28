@@ -35,3 +35,12 @@ No deployment is implied by these local checks.
 ## License review
 
 The upstream MIT license allows modification, publication, distribution and commercial use provided the copyright and permission notices are retained. The studio branding identifies this adaptation; it does not assert ownership of the upstream engine or endorsement by its author. The build includes the original license and the licenses of bundled three.js, Pickr, fflate and Quicksand. Upstream example models are not included in the production build. Runtime format parsers continue to load the upstream version-pinned libraries from jsDelivr; these are application-library downloads, not model uploads.
+
+## Contact dialog
+`contact.js` opens the existing localized Webflow contact page in a modal iframe.
+`contact-embed.html` is appended to the contact page head in Webflow. Its compact
+presentation is active only when framed by `https://viewer.danthree.studio` with
+`?viewer-contact=1`. Field names, Webflow submission and consent processing are
+unchanged. Success/close messages are accepted only from the exact website origin
+and the active iframe window. No model contents, names or metadata are sent.
+Closing the dialog preserves both the loaded model and the unsent form.

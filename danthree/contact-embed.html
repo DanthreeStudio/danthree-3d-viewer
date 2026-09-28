@@ -1,0 +1,50 @@
+<!-- Existing contact form, presented inside the Danthree viewer on request only. -->
+<script data-cookieconsent="ignore">
+(function () {
+  'use strict';
+  if (window.parent === window || new URLSearchParams(location.search).get('viewer-contact') !== '1') return;
+  var viewerOrigin = 'https://viewer.danthree.studio';
+  try { if (new URL(document.referrer).origin !== viewerOrigin) return; } catch (_) { return; }
+  document.documentElement.classList.add('dt-viewer-contact');
+  document.addEventListener('DOMContentLoaded', function () {
+    var form = document.getElementById('wf-form-CTA-Contact-Section');
+    if (!form) return;
+    var language = (location.pathname.match(/^\/(en|fr|it)(?:\/|$)/) || [null, 'de'])[1];
+    var titles = {de:'Erzähl uns von deinem Projekt',en:'Tell us about your project',fr:'Parle-nous de ton projet',it:'Raccontaci il tuo progetto'};
+    var container = form.closest('.small-container.for-cta-form');
+    var heading = document.createElement('h1');
+    heading.className = 'dt-viewer-contact-heading';
+    heading.setAttribute('data-wg-notranslate', '');
+    heading.textContent = titles[language];
+    container.prepend(heading);
+    document.querySelectorAll('#Kontakt a[target="_blank"]').forEach(function (link) { link.rel = 'noopener noreferrer'; });
+    var success = form.closest('.w-form').querySelector('.w-form-done');
+    var sent = false;
+    new MutationObserver(function () {
+      if (!sent && getComputedStyle(success).display !== 'none') {
+        sent = true;
+        window.parent.postMessage({type:'danthree-contact-success'}, viewerOrigin);
+      }
+    }).observe(success, {attributes:true, attributeFilter:['style','class']});
+    document.addEventListener('keydown', function (event) {
+      if (event.key === 'Escape') window.parent.postMessage({type:'danthree-contact-close'}, viewerOrigin);
+    });
+    window.parent.postMessage({type:'danthree-contact-ready'}, viewerOrigin);
+  });
+})();
+</script>
+<style>
+html.dt-viewer-contact,html.dt-viewer-contact body{min-height:0;background:#e5e1da}
+html.dt-viewer-contact .page-wrapper > :not(#Kontakt){display:none!important}
+html.dt-viewer-contact #Kontakt{padding:28px 24px!important;overflow:visible!important;min-height:0}
+html.dt-viewer-contact #Kontakt .heading-gallery-container{padding:0!important;max-width:640px;width:100%;margin:0 auto}
+html.dt-viewer-contact #Kontakt .contact-layout{display:block!important;padding:0;margin:0}
+html.dt-viewer-contact #Kontakt .contact-layout > :not(.small-container.for-cta-form){display:none!important}
+html.dt-viewer-contact #Kontakt .small-container.for-cta-form{width:100%;max-width:none;margin:0;padding:0}
+html.dt-viewer-contact .dt-viewer-contact-heading{font-size:clamp(26px,5vw,36px);line-height:1.2;font-weight:400;text-align:center;margin:0 0 28px}
+html.dt-viewer-contact #Kontakt .cta-form-tf,html.dt-viewer-contact #Kontakt .cta-form-tf-are{font-size:20px}
+html.dt-viewer-contact #Kontakt .cta-form-tf-are{min-height:140px}
+html.dt-viewer-contact #Kontakt .cta-submit-button{display:block;margin:24px auto 0}
+html.dt-viewer-contact #Kontakt .cta-form-btm-txt{font-size:16px;line-height:1.45;margin-top:22px;text-align:center}
+@media(max-width:479px){html.dt-viewer-contact #Kontakt{padding:20px 16px!important}}
+</style>
