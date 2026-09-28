@@ -73,5 +73,17 @@
     }
     new MutationObserver(placeTrigger).observe(intro, {attributes:true,attributeFilter:['style','class']});
     placeTrigger();
+    // Reflow the upstream canvas when fonts or the single CTA change toolbar height.
+    // Without this, its first measurement can leave an unused strip below the viewer.
+    const header = document.getElementById('header');
+    if (header && typeof ResizeObserver !== 'undefined') {
+      let previousHeight = -1;
+      new ResizeObserver(() => {
+        const height = header.getBoundingClientRect().height;
+        if (height === previousHeight) return;
+        previousHeight = height;
+        requestAnimationFrame(() => window.dispatchEvent(new Event('resize')));
+      }).observe(header);
+    }
   });
 })();
