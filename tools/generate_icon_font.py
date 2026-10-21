@@ -1,6 +1,8 @@
 import os
 import sys
 import shutil
+import json
+import hashlib
 
 from lib import utils as Utils
 
@@ -21,11 +23,21 @@ def Main (argv):
 	if not os.path.exists (iconFontDir):
 		os.makedirs (iconFontDir)
 
-	Utils.RunCommand ('oslllo-svg-fixer', [
-		'-s', iconsDir,
-		'-d', fixedIconsDir
-	])
-	Utils.RunCommand ('svgo', [fixedIconsDir])
+	# Use reviewed outlines instead of rasterizing trusted source icons on every build.
+	# A changed source must have its outline explicitly reviewed before generating fonts.
+	outlinedDir = os.path.join (rootDir, 'assets', 'icons-outlined')
+	with open (os.path.join (outlinedDir, 'source-hashes.json'), encoding='utf-8') as source:
+		expected = json.load (source)
+	actual = {}
+	for name in sorted (os.listdir (iconsDir)):
+		if name.endswith ('.svg'):
+			with open (os.path.join (iconsDir, name), 'rb') as source:
+				actual[name] = hashlib.sha256 (source.read ()).hexdigest ()
+	if actual != expected:
+		raise RuntimeError ('Icon sources changed. Review and export filled paths to assets/icons-outlined, then update source-hashes.json.')
+	for name in expected:
+		shutil.copyfile (os.path.join (outlinedDir, name), os.path.join (fixedIconsDir, name))
+	Utils.RunCommand ('svgo', ['-f', fixedIconsDir])
 	Utils.RunCommand ('fantasticon', [
 		fixedIconsDir,
 		'-o', iconFontDir,
