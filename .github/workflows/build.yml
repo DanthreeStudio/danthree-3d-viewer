@@ -13,7 +13,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [18.x, 20.x]
+        node-version: [22.x, 24.x]
         os-type: [windows-latest, macos-latest, ubuntu-latest]
 
     steps:
@@ -21,5 +21,5 @@ jobs:
     - uses: actions/setup-node@v4
       with:
         node-version: ${{ matrix.node-version }}
-    - run: npm install
+    - run: npm ci
     - run: npm run create_dist
